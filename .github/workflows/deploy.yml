@@ -29,4 +29,4 @@ jobs:
           tags: ghcr.io/${{ github.actor }}/nextjs-cicd-practice:latest
 
       - name: Trigger Dokploy Deployment
-        run: curl -X POST "${{ secrets.DOKPLOY_WEBHOOK_URL }}"
+        run: curl -X POST https://dokploy.milahly.top/api/deploy/FYUeYMR1Dr3-Saf-8vEix
